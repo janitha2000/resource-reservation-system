@@ -105,13 +105,10 @@ npm run start
 
 The backend validates reservation details and checks for overlapping confirmed reservations for the same resource. Conflicting bookings are rejected to help maintain reliable scheduling.
 
-## Database Design
 
-The database stores resource information and reservation details. Reservations reference the resources they reserve.
 
-An Entity Relationship (ER) diagram will be provided separately for the assessment submission.
-
-**ER Diagram:** Add your shareable ER diagram URL here.
+**ER Diagram:** 
+docs/erd.png
 
 ## Project Structure
 
@@ -135,23 +132,3 @@ resource-reservation/
 └── README.md
 ```
 
-## Security Notes
-
-- Keep database credentials in environment variables.
-- Do not commit `.env.local`.
-- Validate reservation input on the server.
-- Enforce reservation conflict checks in the backend.
-
-## Assessment Submission
-
-**Project:** Resource Reservation Management System  
-**Organization:** PrimeWave Lab (Pvt) Ltd  
-**Assessment:** Software Engineering Internship Technical Assessment
-
-- **GitHub Repository:** Add your repository URL here.
-- **ER Diagram:** Add your shareable diagram URL here.
-- **Demonstration Video:** Add your video link here.
-
-## License
-
-This project was developed for assessment purposes.
